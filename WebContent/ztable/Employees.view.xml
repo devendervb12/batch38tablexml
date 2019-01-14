@@ -1,0 +1,31 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="ztable.Employees" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="{m2>title}">
+		<content>
+	         <Table items="{/employeeSet}">
+	            <columns>
+	                <Column>
+	                    <header>
+	                        <Text text="{m2>name}"/>
+	                    </header>
+	                </Column>
+	                 <Column>
+	                    <header>
+	                        <Text text="{m2>role}"/>
+	                    </header>
+	                </Column>                
+	            </columns>
+	            
+	            <items>
+	               <ColumnListItem>
+	                 <cells>
+	                    <Text text="{name}"/>
+	                    <Text text="{role}"/>
+	                    
+	                 </cells>
+	               </ColumnListItem>
+	            </items>
+	         </Table>
+		</content>
+	</Page>
+</core:View>

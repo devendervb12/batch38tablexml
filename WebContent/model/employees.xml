@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<employeeSet>
+		<name>Devender</name>
+		<role>Trainer</role>
+		<dept>UI5</dept>
+	</employeeSet>
+	<employeeSet>
+		<name>Surendar</name>
+		<role>Marketing</role>
+		<dept>SAP</dept>
+	</employeeSet>
+	<employeeSet>
+		<name>Mahendar</name>
+		<role>Developer</role>
+		<dept>Java</dept>
+	</employeeSet>
+</root>
